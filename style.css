@@ -171,3 +171,23 @@ color: rgb(123, 40, 79);
 ul li::marker{
     color: hsl(14, 45%, 36%);
 }
+@media screen and(max-width:425px){
+.container{
+    padding: 15px;
+}
+.body{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
