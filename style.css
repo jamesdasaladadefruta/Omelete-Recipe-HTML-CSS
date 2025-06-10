@@ -171,18 +171,44 @@ color: rgb(123, 40, 79);
 ul li::marker{
     color: hsl(14, 45%, 36%);
 }
-@media screen and(max-width:768px){
-.container{
-    padding: 15px;
+@media screen and (max-width: 768px){
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
-.body{
-    padding: 20px;
+    .container{
+    border-radius: 0;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
 }
-h1{
-    font-size: 32px;
+
+    .img-omelete{
+    width: 100%;
+    border-radius: 0px;
+}
+.initial-group{
+
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 .preparation{
-    padding: 15px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ingredientes{
+    margin: 40px;
+}
+
+.instructions{
+    margin: 40px;
+}
+.nutrition{
+    margin: 40px;
 }
 
 
