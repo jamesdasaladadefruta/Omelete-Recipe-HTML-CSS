@@ -173,7 +173,7 @@ ul li::marker{
 }
 @media screen and(max-width:768px){
 .container{
-    padding: 15px;
+    padding: 30px;
 }
 .body{
     padding: 10px;
